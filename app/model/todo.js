@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-
+import './index';
 const TodoSchema = new mongoose.Schema({
     content: {
         type: String,
